@@ -1,0 +1,26 @@
+{
+  "name": "mal-fidl-generator",
+  "version": "1.0.0",
+  "description": "FIDL generation of MAL APIs from the API mapping XLS",
+  "main": "fidlGenerator.js",
+  "scripts": {
+    "test": "node -v"
+  },
+  "keywords": [
+    "MAL",
+    "FIDL",
+    "generator",
+    "API",
+    "XLS",
+    "mapping"
+  ],
+  "author": "Prasanna",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0",
+    "xls-to-json-lc": "^0.3.4",
+    "xlsx": "^0.11.4",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}
